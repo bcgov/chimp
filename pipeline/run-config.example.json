@@ -1,0 +1,21 @@
+{
+  "test_id": "example",
+  "description": "example",
+  "input": {
+    "water_feature_file": "path to geopackage containing tables representing the input water features",
+    "tables": "STREAM_NETWORKS,LINEAR_BOUNDARIES",
+    "data_bbox": "1552005.6,482650.7,1812279.8,626731.1",
+    "data_bbox_crs": "EPSG:3005",
+    "whitelist": "EDGE_TYPE:1000,1050,1100,1150,1425,1500,1525,1550,1600,1800,1825,1850,1875,1900,1925,1950,1975,2000,2100,2300",
+    "blacklist": null
+  },
+  "options": {
+    "simplify": true,
+    "simplify_dist_tolerance": 2,
+    "densify": true,
+    "densify_dist_spacing": 30,
+    "snap": true,
+    "snap_precision_scale": 10,
+    "voronoi_config_num": 5
+  }
+}

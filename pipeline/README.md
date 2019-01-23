@@ -10,15 +10,18 @@ configuration file.
 * Rename settings.example.json to settings.json
 * Open settings.json in a text editor and set values for the following properties:
 
+'''
 {
   "out_base_dir": "path where output files should be saved",
   "voronoi_catchment_path": "path to voronoi-catchments.exe",
   "java_path": "path to java.exe",
   "java_classpath": "classpath of the catchment-delineation-helper tools and all of their dependencies.  suggest copying from eclipse because the list of jar files is very long"
 }
+'''
 
 * Open run-config.example.json in a text editor and set values for the following properties
 
+'''
 {
   "test_id": "example",
   "description": "example",
@@ -40,6 +43,7 @@ configuration file.
     "voronoi_config_num": 5
   }
 }
+'''
 
 ## Run
 
